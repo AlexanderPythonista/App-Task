@@ -4,11 +4,13 @@ document.getElementById('formTask').addEventListener('submit', saveTask);
 function saveTask(e) {
   let title = document.getElementById('title').value;
   let description = document.getElementById('description').value;
-  console.log(description)
+  let time = document.getElementById('time').value
+  console.log(time)
 
   let task = {
     title,
-    description
+    description,
+    time
   };
 
   if(localStorage.getItem('tasks') === null) {
@@ -46,10 +48,11 @@ function getTasks() {
   for(let i = 0; i < tasks.length; i++) {
     let title = tasks[i].title;
     let description = tasks[i].description;
+    let time = tasks[i].time;
 
     tasksView.innerHTML += `<div class="card mb-3">
         <div class="card-body">
-          <p>${title} — ${description}
+          <p><spanas>     ${title}    </spanas>      ——     <spanes>${description}</spanes> —— <spanis>A las ${time}</spanis>
           <a href="#" onclick="deleteTask('${title}')" class="btn btn-danger ml-5"  style="font-family: 'Sofia',
 cursive; ">Delete</a>
           </p>
