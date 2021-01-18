@@ -22,7 +22,15 @@ transform: translateY(20px);
 color: #5c5c5cb7;
 }
 
-
+spanas{
+  color: rgb(163, 6, 6);
+}
+spanes{
+  color: #585454;
+}
+spanis{
+  color: #33a805;
+}
  span{
    color:#33a805;
  }
@@ -42,3 +50,23 @@ cursive;
    font-family: 'Sofia',
 cursive;
  }
+
+@media (max-width: 400px) {
+
+.footer{
+transform: translateY(110px);
+bottom: 0%;
+margin-bottom: 0%;
+background-color: white;
+}
+.footer p{
+  background-color: white;
+  transform: translateY(40px);
+}
+.footer span{
+  background-color: white;
+}
+.card{
+  margin-top: 3em;
+}
+}
