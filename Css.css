@@ -1,0 +1,44 @@
+footer{
+    color: #cfcbcb;
+}
+body{
+
+background-image: url(renzler.gif);
+
+font-family: 'Oswald' , sans-serif;
+
+}
+.footer{
+  background-color: white;
+  padding-bottom:0;
+  margin-bottom: 0;
+  bottom: 0;
+  height: 107px;
+  text-align: center;
+  transform: translateY(200px);
+}
+.footer p {
+transform: translateY(20px);
+color: #5c5c5cb7;
+}
+
+
+ span{
+   color:#33a805;
+ }
+
+
+ .navbar-brand{
+   font-family:  'Potta One',cursive;;
+   color: #c70f0f;
+ }
+ spana{
+      color: #c70f0f;
+ }
+ .form-group{
+   font-family: 'Sofia',
+cursive; 
+ }.card-body{
+   font-family: 'Sofia',
+cursive;
+ }
