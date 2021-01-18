@@ -1,0 +1,12 @@
+footer{
+    color: #cfcbcb;
+}
+body{
+
+background-image: url(file:///home/gamboa/Documentos/Desarrollo%20Web/Patrones/renzler/renzler.gif);
+
+font-family: 'Oswald' , sans-serif;
+
+}
+body ::after{
+  
