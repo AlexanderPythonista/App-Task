@@ -52,7 +52,7 @@ function getTasks() {
 
     tasksView.innerHTML += `<div class="card mb-3">
         <div class="card-body">
-          <p><spanas>     ${title}    </spanas>      ——     <spanes>${description}</spanes> —— <spanis>A las ${time}</spanis>
+          <p><spanas>     ${title}    </spanas>      ——     <spanes>${description}</spanes> —— <spanis> ${time}</spanis>
           <a href="#" onclick="deleteTask('${title}')" class="btn btn-danger ml-5"  style="font-family: 'Sofia',
 cursive; ">Delete</a>
           </p>
