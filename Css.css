@@ -50,6 +50,9 @@ cursive;
    font-family: 'Sofia',
 cursive;
  }
+.fb-like{
+margin-top: '1em';
+}
 
 @media (max-width: 400px) {
 
