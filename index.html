@@ -13,8 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
 </head>
 <body>
-   <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v9.0" nonce="YCh3gtKO"></script>
+  
 <!--NAV-->
 
 <nav class="navbar navbar-light bg-light">
@@ -23,7 +22,6 @@
         <spana>Aplicación d</spana><span>e Tareas</span>
       </a>
     </div>
-<div class="fb-like" data-href="https://alexanderandarthur.github.io/App-Task/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>    
   </nav>
 
 <!--Contenido-->
@@ -54,11 +52,29 @@
         </div>
     </div>
 </div>
+    
+    <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" 
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1
+             &version={graph-api-version}
+             &appId={your-facebook-app-id}
+             &autoLogAppEvents=1" 
+        nonce="FOKrbAYI">
+  </script>
+
+  <!-- Your like button code -->
+  <div class="fb-like" 
+       data-href="https://alexanderandarthur.github.io/App-Task/" 
+       data-width=""
+       data-layout="button_count" 
+       data-action="like" 
+       data-size="small"  
+       data-share="true">
+  </div>
 
 
 <div class=" footer" >
       <p>Create By Alexander G (Alejandro Gamboa) &copy; 2021-2022 </p>
-<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Falexanderandarthur.github.io%2FApp-Task%2F&width=255&layout=button_count&action=like&size=large&share=true&height=46&appId" width="255" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>    </div>
 
 <script src="app.js"></script>
 </body>
