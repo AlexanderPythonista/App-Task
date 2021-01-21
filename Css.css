@@ -20,6 +20,7 @@ font-family: 'Oswald' , sans-serif;
 .footer p {
 transform: translateY(20px);
 color: #5c5c5cb7;
+ margin-buttom: 1em;
 }
 
 spanas{
@@ -50,9 +51,7 @@ cursive;
    font-family: 'Sofia',
 cursive;
  }
-.fb-like{
-margin-top: '1em';
-}
+
 
 @media (max-width: 400px) {
 
